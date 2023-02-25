@@ -1,0 +1,344 @@
+DOCTYPE html>
+<html>
+  <head>
+    <title>Page de connexion</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <form>
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom"><br>
+
+      <label for="prenom">Prénom :</label>
+      <input type="text" id="prenom" name="prenom"><br>
+
+      <label for="username">Nom d'utilisateur :</label>
+      <input type="text" id="username" name="username"><br>
+
+      <label for="password">Mot de passe :</label>
+      <input type="password" id="password" name="password"><br>
+
+      <input type="submit" value="Se connecter">
+    </form>
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Paiement Premium</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Paiement Premium</h1>
+    <p>Veuillez sélectionner l'option de paiement souhaitée :</p>
+    <form>
+      <div>
+        <input type="radio" id="premiumSolo" name="premium" value="15">
+        <label for="premiumSolo">Premium Solo - 15€</label>
+      </div>
+      <div>
+        <input type="radio" id="premiumFamille" name="premium" value="29">
+        <label for="premiumFamille">Premium Famille - 29€</label>
+      </div>
+      <div>
+        <input type="radio" id="multiPremium" name="premium" value="50">
+        <label for="multiPremium">Multi Premium - 50€</label>
+      </div>
+    </form>
+    <button id="payerBtn">Payer</button>
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OCTA Music</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="logo_ma_liste.png" alt="Logo Ma Liste">
+      </div>
+      <div class="recherche">
+        <input type="text" placeholder="Rechercher un artiste">
+        <button>Rechercher</button>
+      </div>
+      <div class="parametres">
+        <img src="logo_parametres.png" alt="Logo Paramètres">
+      </div>
+    </header>
+    <main>
+      <h1>Bienvenue chez OCTA Music</h1>
+      <div class="artiste-semaine">
+        <h2>Artiste de la semaine</h2>
+        <div class="artiste-semaine-details">
+          <img src="artiste_semaine.png" alt="Artiste de la semaine">
+          <h3>Nom de l'artiste</h3>
+          <p>Description de l'artiste de la semaine</p>
+        </div>
+      </div>
+      <div class="artistes-favoris">
+        <h2>Artistes favoris</h2>
+        <div class="artistes-favoris-details">
+          <div class="artiste">
+            <img src="artiste1.png" alt="Artiste 1">
+            <h3>Nom de l'artiste 1</h3>
+          </div>
+          <div class="artiste">
+            <img src="artiste2.png" alt="Artiste 2">
+            <h3>Nom de l'artiste 2</h3>
+          </div>
+          <div class="artiste">
+            <img src="artiste3.png" alt="Artiste 3">
+            <h3>Nom de l'artiste 3</h3>
+          </div>
+        </div>
+      </div>
+      <div class="ecouter-recemment">
+        <h2>Écouter récemment</h2>
+        <div class="ecouter-recemment-details">
+          <div class="artiste">
+            <img src="artiste4.png" alt="Artiste 4">
+            <h3>Nom de l'artiste 4</h3>
+          </div>
+          <div class="artiste">
+            <img src="artiste5.png" alt="Artiste 5">
+            <h3>Nom de l'artiste 5</h3>
+          </div>
+          <div class="artiste">
+            <img src="artiste6.png" alt="Artiste 6">
+            <h3>Nom de l'artiste 6</h3>
+          </div>
+        </div>
+      </div>
+      <div class="plus-connus">
+        <h2>Les plus connus</h2>
+        <div class="plus-connus-details">
+          <div class="artiste">
+            <img src="artiste7.png" alt="Artiste 7">
+            <h3>Nom de l'artiste 7</h3>
+          </div>
+          <div class="artiste">
+            <img src="artiste8.png" alt="Artiste 8">
+            <h3>Nom de l
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Paramètres - OCTA Music</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="logo_ma_liste.png" alt="Logo Ma Liste">
+      </div>
+      <div class="recherche">
+        <input type="text" placeholder="Rechercher un artiste">
+        <button>Rechercher</button>
+      </div>
+      <div class="parametres">
+        <img src="logo_parametres.png" alt="Logo Paramètres">
+      </div>
+    </header>
+    <main>
+      <h1>Paramètres</h1>
+      <ul>
+        <li>
+          <a href="#">Mode de paiement</a>
+        </li>
+        <li>
+          <a href="#">Devenir OCTA créateur</a>
+        </li>
+        <li>
+          <a href="#">Devenir artiste</a>
+        </li>
+        <li>
+          <a href="#">Règlement</a>
+        </li>
+        <li>
+          <a href="#">Se déconnecter</a>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Paramètres - OCTA Music</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="logo_ma_liste.png" alt="Logo Ma Liste">
+      </div>
+      <div class="recherche">
+        <input type="text" placeholder="Rechercher un artiste">
+        <button>Rechercher</button>
+      </div>
+      <div class="parametres">
+        <img src="logo_parametres.png" alt="Logo Paramètres">
+      </div>
+    </header>
+    <main>
+      <h1>Paramètres</h1>
+      <ul>
+        <li>
+          <a href="#">Mode de paiement</a>
+        </li>
+        <li>
+          <a href="#">Devenir OCTA créateur</a>
+        </li>
+        <li class="active">
+          <a href="#">Devenir artiste</a>
+          <div class="contenu">
+            <h2>Devenir artiste sur OCTA Music</h2>
+            <p>Pour devenir artiste sur OCTA Music et publier votre musique, suivez les étapes suivantes :</p>
+            <ol>
+              <li>Créez un compte artiste en remplissant le formulaire d'inscription.</li>
+              <li>Attendez que votre demande soit examinée et approuvée par notre équipe.</li>
+              <li>Publiez votre musique et créez des albums pour vos fans.</li>
+              <li>Gagnez de l'argent avec vos vues ! Les artistes sur OCTA Music sont payés :</li>
+              <ul>
+                <li>1000 euros à partir de 1000 vues</li>
+                <li>100 000 euros à partir de 1 000 000 vues</li>
+              </ul>
+              <li>Recevez votre certification si vous atteignez 100 000 abonnés !</li>
+            </ol>
+            <a href="#">Devenir artiste</a>
+          </div>
+        </li>
+        <li>
+          <a href="#">Règlement</a>
+        </li>
+        <li>
+          <a href="#">Se déconnecter</a>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ma Liste - OCTA Music</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="logo_ma_liste.png" alt="Logo Ma Liste">
+      </div>
+      <div class="recherche">
+        <input type="text" placeholder="Rechercher un artiste">
+        <button>Rechercher</button>
+      </div>
+      <div class="parametres">
+        <img src="logo_parametres.png" alt="Logo Paramètres">
+      </div>
+    </header>
+    <main>
+      <h1>Ma Liste</h1>
+      <ul>
+        <li>
+          <a href="#">Artistes favoris</a>
+        </li>
+        <li>
+          <a href="#">Meilleure chanson</a>
+        </li>
+        <li>
+          <a href="#">Ajouter un artiste</a>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lecture de musique - OCTA Music</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="logo_lecture.png" alt="Logo Lecture">
+      </div>
+      <div class="recherche">
+        <input type="text" placeholder="Rechercher une chanson">
+        <button>Rechercher</button>
+      </div>
+      <div class="parametres">
+        <img src="logo_parametres.png" alt="Logo Paramètres">
+      </div>
+    </header>
+    <main>
+      <div class="photo-couverture">
+        <img src="couverture_chanson.jpg" alt="Couverture de la chanson">
+      </div>
+      <div class="controles-lecture">
+        <button id="lire-pause">
+          <img src="logo_lire.png" alt="Logo Lire">
+        </button>
+        <button id="lire-boucle">
+          <img src="logo_boucle.png" alt="Logo Boucle">
+        </button>
+        <button id="ajouter-ma-liste">
+          <img src="logo_ajouter.png" alt="Logo Ajouter">
+        </button>
+        <button id="profil-artiste">
+          <img src="logo_artiste.png" alt="Logo Artiste">
+        </button>
+      </div>
+    </main>
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page de l'artiste - OCTA Music</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="logo_artiste.png" alt="Logo Artiste">
+      </div>
+      <div class="recherche">
+        <input type="text" placeholder="Rechercher une chanson">
+        <button>Rechercher</button>
+      </div>
+      <div class="parametres">
+        <img src="logo_parametres.png" alt="Logo Paramètres">
+      </div>
+    </header>
+    <main>
+      <div class="nouvelle-chanson">
+        <h2>Publier une nouvelle chanson</h2>
+        <form>
+          <input type="text" placeholder="Titre de la chanson">
+          <input type="text" placeholder="URL de la chanson">
+          <button>Publier</button>
+        </form>
+      </div>
+      <div class="succes-musique">
+        <h2>Succès de ta musique</h2>
+        <ul>
+          <li>Nombre de vues : 1,000,000</li>
+          <li>Nombre d'abonnés : 100,000</li>
+          <li>Nombre de likes : 500,000</li>
+        </ul>
+      </div>
+      <div class="gain-semaine">
+        <h2>Gains de la semaine</h2>
+        <p>Vous avez gagné 5,000 € cette semaine.</p>
+      </div>
+      <div class="se-faire-connaitre">
+        <h2>Se faire connaître grâce à OCTA music</h2>
+        <p>Devenez un artiste payant à 10 €/mois pour bénéficier d'une promotion supplémentaire et atteindre plus de fans.</p>
+        <button>Devenir un artiste payant</button>
+      </div>
+    </main>
+  </body>
+</html>
